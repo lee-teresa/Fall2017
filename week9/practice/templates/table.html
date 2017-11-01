@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Table</title>
+  </head>
+  <body>
+        <table>
+ 		  {% for i in range(dim) %}
+          <tr>
+  		      {% for j in range(dim) %}
+              <td>
+   	             {{dim}}
+              </td>
+              {% endfor %}
+
+          </tr>
+  		  {% endfor %}
+        </table>
+  </body>
+</html>
+
